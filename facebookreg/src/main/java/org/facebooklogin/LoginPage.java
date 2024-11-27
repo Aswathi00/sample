@@ -18,6 +18,8 @@ public class LoginPage {
 	WebElement 	fnamebox=driver.findElement(By.name("firstname"));
 	fnamebox.sendKeys(firstname);
 	
+	
+	
 	}
 	public void setSurname(String surname)
 	{
