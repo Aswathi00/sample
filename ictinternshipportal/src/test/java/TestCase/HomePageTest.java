@@ -21,6 +21,7 @@ public class HomePageTest extends TestBase{
 	public void config() throws InterruptedException {
 		
 		HP=new HomePage(driver);
+		
 		log=new LoginPage(driver);
 		md = new MentorDashboardPage(driver);
 		rm=new ReferanceMaterials(driver);
