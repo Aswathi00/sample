@@ -17,6 +17,8 @@ public class TestBase {
 		prop= new Properties();
 		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\log.properties");
 		prop.load(fis);
+		
+		
 	}
 	@BeforeMethod
 	public void test() throws IOException
