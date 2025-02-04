@@ -19,6 +19,8 @@ public class AdminDashboardPage {
 	{
 		WebElement mm=driver.findElement(By.xpath("//a[@class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit nav-item nav-link css-b7766g']"));
 		mm.click();	
+	
+	
 	}
 	public void projects()
 	{
